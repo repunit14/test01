@@ -1,0 +1,153 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+header {
+    height: 90px;
+    background-color: #26d0c9;
+    color: #ffffff;
+    margin: 0;
+}
+
+.header-title {
+    margin: 20px 40px;
+    float: left;
+}
+
+.header-title h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    margin: 33px 20px;
+    float: left;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.top-base {
+    height: unset;
+    width: unset;
+    background-image: url(C:\Users\repunit\Personal\HTML\items\top-image.jpg);
+}
+
+.top-container {
+    margin: 100px 80px;
+}
+
+.top-container h1 {
+    font-size: 140px;
+}
+
+.top-container h2 {
+    font-size: 60px;
+}
+
+.top-container span {
+    color: #ff4a4a;
+}
+
+.top {
+    text-align: center;
+}
+
+.contents-base {
+    height: 500px;
+    background-color: thistle;
+    text-align: center;
+}
+
+.lesson-base {
+    height: 500px;
+    margin: 100px 80px;
+}
+
+.lesson-title {
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom: 50px;
+}
+
+.lesson-title h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.icon-base {
+    float: left;
+    margin-right: 40px;
+    width: 20%;
+}
+
+.icon-base h3 {
+    font-size: 50px;
+}
+
+.icon-base p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.message-base {
+    padding: 100px 80px;
+}
+
+.message-title {
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom: 50px;
+}
+
+.message-title h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+input,textarea {
+    width:400px;
+    padding:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #dee7ec;
+}
+
+.sendButton {
+    background-color:#dee7ec;
+    color:#889ead;
+}
+
+footer {
+    height: 120px;
+    padding: 40px;
+    background-color: #2f5167;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 36px;
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 20px;
+}
